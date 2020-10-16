@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #2a8067;
+  height: 100vh;
+  width: 100%;
+}
+
+.tituloPrincipal {
+  color: white;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.tablaServicios {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.tablaServicios thead {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.tablaServicios td {
+  padding: 15px 0;
+}
+
+.tablaServicios td {
+  border-bottom: 2px solid white;
+}
+
+.contenedor {
+  justify-items: center;
+}
+
+.boton {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 20px auto;
+  align-self: center;
+}
